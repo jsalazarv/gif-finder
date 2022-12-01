@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[FinderInput] [Snapshots] It should contain [finder] class 1`] = `
+<div>
+  <div
+    class="finder"
+  >
+    <form
+      role="form"
+    >
+      <div
+        class="wrapper"
+      >
+        <input
+          placeholder="Hello, search all the GIFs..."
+          type="text"
+          value=""
+        />
+        <span
+          class="underline"
+        />
+      </div>
+    </form>
+  </div>
+</div>
+`;
