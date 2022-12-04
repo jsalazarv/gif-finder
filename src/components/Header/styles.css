@@ -1,0 +1,59 @@
+.header {
+    @apply fixed;
+    @apply w-full;
+}
+
+.navbar__content {
+    @apply py-6;
+    @apply px-6;
+    @apply w-full;
+    @apply h-screen;
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+}
+
+.navbar__title {
+    font-size: 18rem;
+    font-weight: 900;
+    position: absolute;
+    color: #222222;
+}
+
+.header.collapsed .navbar__content {
+    @apply transition-all duration-1000;
+    @apply h-auto;
+    @apply flex;
+    @apply gap-6;
+    @apply justify-start;
+}
+
+.header.collapsed .navbar__title {
+   position: initial;
+    @apply text-4xl;
+    @apply text-white;
+    @apply transition-all duration-1000;
+}
+
+.header.collapsed .animate-text {
+    background: linear-gradient(
+        115deg,
+        #4fcf70,
+        #fad648,
+        #a767e5,
+        #12bcfe,
+        #44ce7b
+    );
+    background-clip: border-box;
+    background-size: 200% auto;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}

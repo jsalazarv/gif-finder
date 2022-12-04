@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Header] Should render the [Header] component 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <nav
+      class="navbar__content"
+    >
+      <h1
+        class="navbar__title"
+      >
+        <span
+          class="animate-text"
+        >
+          GIF
+        </span>
+        INDER
+      </h1>
+    </nav>
+  </header>
+</div>
+`;
