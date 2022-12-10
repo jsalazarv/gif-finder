@@ -1,6 +1,8 @@
 .header {
     @apply fixed;
     @apply w-full;
+    @apply bg-black;
+    @apply z-10;
 }
 
 .navbar__content {
@@ -21,7 +23,7 @@
 }
 
 .header.collapsed .navbar__content {
-    @apply transition-all duration-1000;
+    @apply transition-all duration-200;
     @apply h-auto;
     @apply flex;
     @apply gap-6;
@@ -32,7 +34,7 @@
    position: initial;
     @apply text-4xl;
     @apply text-white;
-    @apply transition-all duration-1000;
+    @apply transition-all duration-200;
 }
 
 .header.collapsed .animate-text {
