@@ -1,0 +1,30 @@
+.gif .image-container {
+    @apply w-full;
+    @apply h-[200px];
+    @apply overflow-hidden;
+    @apply rounded-xl;
+}
+
+.image-container img {
+    @apply w-full;
+    @apply h-full;
+    @apply bg-gray-200;
+    @apply hover:scale-110;
+    @apply transition;
+    @apply duration-500;
+    @apply object-cover;
+}
+
+.gif a {
+    @apply text-sm;
+    @apply text-gray-400;
+    @apply truncate;
+    @apply hover:text-clip;
+    @apply cursor-pointer;
+    @apply block;
+    @apply font-normal;
+    @apply mt-2;
+    @apply mb-4;
+    @apply hover:underline;
+    @apply overflow-hidden;
+}
