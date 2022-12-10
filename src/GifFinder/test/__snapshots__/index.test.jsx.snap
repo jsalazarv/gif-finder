@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[GifFinder] [Snapshot] Should render and contain class [finder-container] 1`] = `
+<div>
+  <div
+    class="finder-container"
+  />
+</div>
+`;
