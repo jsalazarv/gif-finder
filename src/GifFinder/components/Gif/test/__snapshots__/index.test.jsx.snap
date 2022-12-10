@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Gif] [Snapshot] Should render [Gif] component and contain class [gif] 1`] = `
+<div>
+  <div
+    class="gif"
+  >
+    <div
+      class="image-container"
+    >
+      <img />
+    </div>
+    <a
+      role="anchor"
+      target="_blank"
+    >
+      <small />
+    </a>
+  </div>
+</div>
+`;
