@@ -9,7 +9,7 @@ module.exports = {
     ],
     coverageThreshold: {
         global: {
-            lines: 38,
+            lines: 55,
         },
     },
     testEnvironment: 'jest-environment-jsdom',
