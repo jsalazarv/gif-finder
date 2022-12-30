@@ -1,0 +1,7 @@
+.gif-grid {
+    @apply grid;
+    @apply grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6;
+    @apply gap-4;
+    @apply px-8 md:px-6;
+    @apply pt-12;
+}
